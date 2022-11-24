@@ -1,0 +1,10 @@
+[project]
+protostar-version = "0.7.0"
+lib-path = "lib"
+
+[contracts]
+ERC20 = ["src/ERC20.cairo"]
+Presale = ["src/Presale.cairo"]
+
+# ERC20 Deploy script
+# protostar deploy ./build/ERC20.json --gateway-url "https://alpha4-2.starknet.io" --chain-id 1536727068981429685321 --inputs 1692660622325569080943028654924641 5456198 18 10000 0 2000681464363698068352011609428623611946650690174514479238596551954915871094
